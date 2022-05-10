@@ -1,0 +1,13 @@
+{
+  "name": "pow-windows",
+  "version": "1.0.0",
+  "description": "Pow is a CLI tool to run useful commands easily configurable via Pow files.",
+  "repository": "https://github.com/gabrys/pow-windows.git",
+  "author": "Piotr Gabryjeluk <piotr.gabryjeluk@shortlist.co>",
+  "license": "MIT",
+  "bin": {
+    "pow": "pow.exe"
+  },
+  "cpu": ["x64"],
+  "os": ["win32"]
+}

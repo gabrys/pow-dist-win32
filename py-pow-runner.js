@@ -10,7 +10,7 @@ function main() {
   const package_dir = path.dirname(script_dir);
   const pow_args = process.argv.slice(2);
 
-  const cmd = path.join(package_dir, 'pow-runner.dist', 'pow-runner.exe');
+  const cmd = path.join(package_dir, 'pow-windows', 'pow-runner.dist', 'pow-runner.exe');
 
   cp = child_process.spawnSync(cmd, pow_args, {stdio: 'inherit'});
   if (cp.error) {
